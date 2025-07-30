@@ -1,0 +1,20 @@
+class NwhileDemo3
+{
+public static void main(String args[])
+{
+int a,b,n,rev=0;
+System.out.print(" palindrome no from 200 to 300");
+b=200;
+while(b<=300)
+{
+n=b;
+rev=0;
+while(n!=0)
+{
+a=n%10;
+rev=rev*10+a;
+n=n/10;
+}
+System.out.print(" \t"+n);
+b++;
+}}}

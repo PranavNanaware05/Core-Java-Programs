@@ -1,0 +1,16 @@
+//Statement stmt=con.createStatement();
+			//ResultSet rs=stmt.executeQuery("Select * from tbldata");
+			/*pw.print("<table border=1>"
+					+ "<tr>"
+					+ "<th>Email</th>"
+					+ "<th>Password</th>"
+					+ "</tr>"
+					+ "");
+			while(rs.next())
+			{
+				pw.print("<tr>"
+						+ "<td>"+rs.getString("email")+"</td>"
+						+ "<td>"+rs.getString("password")+"</td>"
+					    + "</tr>");
+			}
+			pw.print("</table>");*/
